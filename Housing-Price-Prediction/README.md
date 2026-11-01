@@ -25,4 +25,4 @@ This script performs data preprocessing, feature engineering, and rigorous hyper
    python app.py
    ```
 ## 📁 Dataset
-* The dataset used in this project is sourced from Kaggle: [Housing Price Prediction by Harsh Kumar Datalab](https://www.kaggle.com/datasets/harshkumardatalab/housing-price-prediction).
+* The dataset used in this project is sourced from Kaggle: [Housing Price Prediction by Harsh Kumar Datalab](https://www.kaggle.com/datasets/harishkumardatalab/housing-price-prediction?resource=download).
