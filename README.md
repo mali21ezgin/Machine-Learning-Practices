@@ -19,7 +19,7 @@ This repository contains machine learning practices, algorithms, and end-to-end 
 ### 🛠 Tech Stack & Libraries
 - **Language:** Python
 - **Data Manipulation & Analysis:** Pandas, NumPy
-- **Machine Learning:** Scikit-Learn (Decision Tree, KNN, StandardScaler, Model Evaluation Metrics)
+- **Machine Learning:** Scikit-Learn 
 - **Version Control:** Git, GitHub, GitHub Desktop
 
 ---
@@ -40,7 +40,7 @@ Bu repo, sağlam ve veri odaklı çözümler üretmeye odaklanmış, Python ile 
 ### 🛠 Teknoloji Yığını ve Kütüphaneler
 - **Dil:** Python
 - **Veri Manipülasyonu ve Analizi:** Pandas, NumPy
-- **Makine Öğrenmesi:** Scikit-Learn (Decision Tree, KNN, StandardScaler, Model Değerlendirme Metrikleri)
+- **Makine Öğrenmesi:** Scikit-Learn 
 - **Versiyon Kontrolü:** Git, GitHub, GitHub Desktop
 
 ---

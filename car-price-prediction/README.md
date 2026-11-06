@@ -1,13 +1,17 @@
 # Car Price Prediction with Multiple Linear & Polynomial Regression
 
-[English](#english) | [Türkçe](#türkçe)
+<p align="center">
+  <a href="#english">English</a> | <a href="#türkçe">Türkçe</a>
+</p>
 
-## 🇬🇧 English
+---
+
+## <a id="english"></a>🇬🇧 English
 
 ### Project Overview
 This project implements an end-to-end Machine Learning pipeline using **Python** and **Scikit-Learn** to predict used car selling prices (`selling_price`). It compares the performance of **Multiple Linear Regression** and **Polynomial Regression**.
 
-* **Dataset:** [Car Details from Car Dekho Dataset on Kaggle](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset)
+- **Dataset:** [Car Details from Car Dekho Dataset on Kaggle](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset)
 
 ### Key Engineering Decisions & Challenges Handled
 
@@ -24,11 +28,11 @@ This project implements an end-to-end Machine Learning pipeline using **Python**
 
 ### Experimental Results
 
-* **Missing Values Check:** `False` (No missing values found in the dataset)
-* **Multiple Linear Regression:**
+- **Missing Values Check:** `False` (No missing values found in the dataset)
+- **Multiple Linear Regression:**
   * **RMSE:** `390,871.48`
   * **MSE:** `152,780,514,424.72`
-* **Polynomial Regression (Degree 2):**
+- **Polynomial Regression (Degree 2):**
   * **RMSE:** `480,538.71`
   * **Best Degree:** `2`
 
@@ -36,12 +40,12 @@ This project implements an end-to-end Machine Learning pipeline using **Python**
 
 ---
 
-## 🇹🇷 Türkçe
+## <a id="türkçe"></a>🇹🇷 Türkçe
 
 ### Proje Özeti
 Bu proje, ikinci el araba satış fiyatlarını (`selling_price`) tahmin etmek amacıyla **Python** ve **Scikit-Learn** kullanılarak geliştirilmiş uçtan uca bir Makine Öğrenmesi pipeline'ıdır. **Çoklu Lineer Regresyon** ve **Polinomal Regresyon** modellerini karşılaştırır.
 
-* **Veri Seti:** [Kaggle Car Details from Car Dekho Veri Seti](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset)
+- **Veri Seti:** [Kaggle Car Details from Car Dekho Veri Seti](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset)
 
 ### Mühendislik Kararları ve Karşılaşılan Zorluklar
 
@@ -58,11 +62,11 @@ Bu proje, ikinci el araba satış fiyatlarını (`selling_price`) tahmin etmek a
 
 ### Deneysel Sonuçlar
 
-* **Eksik Değer Kontrolü:** `False` (Veri setinde eksik veri bulunmamaktadır)
-* **Çoklu Lineer Regresyon Sonucu:**
+- **Eksik Değer Kontrolü:** `False` (Veri setinde eksik veri bulunmamaktadır)
+- **Çoklu Lineer Regresyon Sonucu:**
   * **RMSE:** `390.871,48`
   * **MSE:** `152.780.514.424,72`
-* **Polinomal Regresyon Sonucu (2. Derece):**
+- **Polinomal Regresyon Sonucu (2. Derece):**
   * **RMSE:** `480.538,71`
   * **En İyi Derece:** `2`
 
