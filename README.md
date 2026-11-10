@@ -16,11 +16,13 @@ This repository contains machine learning practices, algorithms, and end-to-end 
 - **`car-price-prediction/`**: End-to-end regression pipeline comparing Multiple Linear and Polynomial Regression; features brand extraction on the `name` column to prevent overfitting and `MemoryError` optimization.
 - **`titanic-survival-prediction/`**: End-to-end classification pipeline for survival prediction using the Titanic dataset; implements missing value imputation via training median, feature scaling, and iterative hyperparameter tuning across KNN, Decision Tree, Random Forest, SVM, and Naive Bayes models.
 - **`customer-segmentation/`**: End-to-end unsupervised learning pipeline for customer segmentation using the Mall Customers dataset; explores and compares K-Means, Hierarchical (Agglomerative), and DBSCAN clustering algorithms based on annual income and spending score.
+- **`q-learning-cliff-walking/`**: Tabular Q-learning reinforcement learning agent built with Gymnasium (`CliffWalking-v1`); trains an agent through trial-and-error to learn an optimal collision-free policy, achieving zero penalties and optimal step convergence during evaluation.
 
 ### 🛠 Tech Stack & Libraries
 - **Language:** Python
 - **Data Manipulation & Analysis:** Pandas, NumPy
 - **Machine Learning:** Scikit-Learn 
+- **Reinforcement Learning:** Gymnasium
 - **Version Control:** Git, GitHub, GitHub Desktop
 
 ---
@@ -38,12 +40,13 @@ Bu repo, sağlam ve veri odaklı çözümler üretmeye odaklanmış, Python ile 
 - **`car-price-prediction/`**: Çoklu Doğrusal ve Polinomal Regresyonu karşılaştıran uçtan uca regresyon boru hattı; aşırı öğrenmeyi (overfitting) önlemek ve `MemoryError` optimizasyonu sağlamak için `name` sütunundan marka çıkarımı (brand extraction) içerir.
 - **`titanic-survival-prediction/`**: Titanic veri setini kullanarak hayatta kalma tahmini yapan uçtan uca sınıflandırma boru hattı; eğitim verisinin medyanı ile eksik veri doldurma, özellik ölçeklendirme ve KNN, Karar Ağacı, Random Forest, SVM ve Naive Bayes modelleri arasında yinelemeli hiperparametre optimizasyonu uygular.
 - **`customer-segmentation/`**: Mall Customers veri setini kullanarak müşteri segmentasyonu yapan uçtan uca gözetimsiz öğrenme boru hattı; yıllık gelir ve harcama skoruna dayanarak K-Means, Hiyerarşik (Agglomerative) ve DBSCAN kümeleme algoritmalarını inceler ve karşılaştırır.
-
+- **`q-learning-cliff-walking/`**: Gymnasium (`CliffWalking-v1`) ortamı kullanılarak geliştirilmiş tablo tabanlı Q-learning pekiştirmeli öğrenme ajanı; deneme-yanılma yoluyla optimal ve güvenli politikayı öğrenerek değerlendirme aşamasında sıfır ceza ve en kısa adım sayısıyla hedefe ulaşır.
 
 ### 🛠 Teknoloji Yığını ve Kütüphaneler
 - **Dil:** Python
 - **Veri Manipülasyonu ve Analizi:** Pandas, NumPy
 - **Makine Öğrenmesi:** Scikit-Learn 
+- **Pekiştirmeli Öğrenme:** Gymnasium
 - **Versiyon Kontrolü:** Git, GitHub, GitHub Desktop
 
 ---
