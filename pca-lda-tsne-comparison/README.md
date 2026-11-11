@@ -12,7 +12,7 @@
 This project implements an end-to-end **Dimensionality Reduction and Feature Extraction** pipeline using **Python**, **Scikit-Learn**, and **Matplotlib** on the [Car Details from Car Dekho Dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset). It explores, compares, and visualizes high-dimensional car features in a 2D space using both unsupervised and supervised projection techniques.
 
 - **Dataset:** Dynamically fetched via `kagglehub` (`akshaydattatraykhare/car-details-dataset`).
-- **Target Engineering:** Converted continuous selling prices into discrete classes using quantile-based discretization (`pd.qcut`) for supervised projection.
+- **Target Engineering:** Divided continuous selling prices into **3 equal-sized quantile groups** (`pd.qcut` with labels `[0, 1, 2]`) to create discrete price categories for supervised projection.
 
 ### Key Engineering Decisions & Approach
 1. **Preprocessing & Feature Engineering:**
@@ -25,7 +25,7 @@ This project implements an end-to-end **Dimensionality Reduction and Feature Ext
        <img src="assets/pca_plot.png" alt="PCA of Car Dataset" width="600"/>
      </p>
 
-   * **LDA (Linear Discriminant Analysis):** A supervised linear transformation leveraging price quantile classes ($y$) to maximize class separability.
+   * **LDA (Linear Discriminant Analysis):** A supervised linear transformation leveraging the 3-tier price quantile classes ($y$) to maximize class separability.
      
      <p align="center">
        <img src="assets/lda_plot.png" alt="LDA of Car Dataset" width="600"/>
@@ -55,7 +55,7 @@ This project implements an end-to-end **Dimensionality Reduction and Feature Ext
 Bu proje, [Car Details from Car Dekho Veri Seti](https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset) üzerinde **Python**, **Scikit-Learn** ve **Matplotlib** kullanarak uçtan uca bir **Boyut İndirgeme ve Özellik Çıkarma** boru hattı uygular. Yüksek boyutlu araba özelliklerini 2 boyutta görselleştirmek ve incelemek için denetimsiz ve denetimli projeksiyon tekniklerini karşılaştırır.
 
 - **Veri Seti:** `kagglehub` (`akshaydattatraykhare/car-details-dataset`) kullanılarak dinamik olarak indirilmiştir.
-- **Hedef Mühendisliği:** Sürekli satış fiyatları, denetimli projeksiyon için nicem tabanlı gruplamaya (`pd.qcut`) tabi tutularak ayrık sınıflara dönüştürülmüştür.
+- **Hedef Mühendisliği:** Sürekli satış fiyatları, denetimli projeksiyon için `pd.qcut` kullanılarak **3 eşit parçaya (nicemlere / quantiles)** bölünmüş ve `[0, 1, 2]` etiketleriyle ayrık fiyat sınıflarına dönüştürülmüştür.
 
 ### Mühendislik Kararları ve Yaklaşım
 1. **Ön İşleme ve Özellik Mühendisliği:**
@@ -68,7 +68,7 @@ Bu proje, [Car Details from Car Dekho Veri Seti](https://www.kaggle.com/datasets
        <img src="assets/pca_plot.png" alt="PCA of Car Dataset" width="600"/>
      </p>
 
-   * **LDA (Doğrusal Ayırıcı Analiz):** Sınıf ayrılabilirliğini maksimize etmek için fiyat sınıflarını ($y$) kullanan denetimli doğrusal dönüşüm.
+   * **LDA (Doğrusal Ayırıcı Analiz):** Sınıf ayrılabilirliğini maksimize etmek için 3 eşit parçaya bölünmüş fiyat sınıflarını ($y$) kullanan denetimli doğrusal dönüşüm.
      
      <p align="center">
        <img src="assets/lda_plot.png" alt="LDA of Car Dataset" width="600"/>
