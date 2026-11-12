@@ -18,11 +18,13 @@ This repository contains machine learning practices, algorithms, and end-to-end 
 - **`customer-segmentation/`**: End-to-end unsupervised learning pipeline for customer segmentation using the Mall Customers dataset; explores and compares K-Means, Hierarchical (Agglomerative), and DBSCAN clustering algorithms based on annual income and spending score.
 - **`q-learning-cliff-walking/`**: Tabular Q-learning reinforcement learning agent built with Gymnasium (`CliffWalking-v1`); trains an agent through trial-and-error to learn an optimal collision-free policy, achieving zero penalties and optimal step convergence during evaluation.
 - **`pca-lda-tsne-comparison/`**: End-to-end dimensionality reduction pipeline comparing PCA, LDA, and T-SNE on the Car Details dataset; uses quantile-based target discretization (`pd.qcut`) to split selling prices into 3 equal price tiers for supervised projections, complete with comparative visual assets.
+- **`turkish-spam-classification/`**: End-to-end NLP text classification pipeline processing the Turkish Spam dataset via TF-IDF vectorization; evaluates and compares Decision Tree, Random Forest, Naive Bayes, and Logistic Regression models using GridSearchCV, K-Fold cross-validation, and confusion matrix visualizations.
 
 ### 🛠 Tech Stack & Libraries
 - **Language:** Python
 - **Data Manipulation & Analysis:** Pandas, NumPy
 - **Machine Learning:** Scikit-Learn 
+- **Natural Language Processing (NLP):** Scikit-Learn (TfidfVectorizer), Text Classification
 - **Reinforcement Learning:** Gymnasium
 - **Data Visualization:** Matplotlib
 - **Version Control:** Git, GitHub, GitHub Desktop
@@ -44,11 +46,13 @@ Bu repo, sağlam ve veri odaklı çözümler üretmeye odaklanmış, Python ile 
 - **`customer-segmentation/`**: Mall Customers veri setini kullanarak müşteri segmentasyonu yapan uçtan uca gözetimsiz öğrenme boru hattı; yıllık gelir ve harcama skoruna dayanarak K-Means, Hiyerarşik (Agglomerative) ve DBSCAN kümeleme algoritmalarını inceler ve karşılaştırır.
 - **`q-learning-cliff-walking/`**: Gymnasium (`CliffWalking-v1`) ortamı kullanılarak geliştirilmiş tablo tabanlı Q-learning pekiştirmeli öğrenme ajanı; deneme-yanılma yoluyla optimal ve güvenli politikayı öğrenerek değerlendirme aşamasında sıfır ceza ve en kısa adım sayısıyla hedefe ulaşır.
 - **`pca-lda-tsne-comparison/`**: Car Details veri seti üzerinde PCA, LDA ve T-SNE'yi karşılaştıran uçtan uca boyut indirgeme boru hattı; satış fiyatlarını denetimli projeksiyonlar için 3 eşit fiyat katmanına bölen nicem tabanlı hedef mühendisliği (`pd.qcut`) uygular ve grafiklerle görselleştirir.
+- **`turkish-spam-classification/`**: TF-IDF vektörleştirme kullanarak Türkçe Spam veri setini işleyen uçtan uca NLP metin sınıflandırma boru hattı; Decision Tree, Random Forest, Naive Bayes ve Logistic Regression modellerini GridSearchCV, K-Fold çapraz doğrulama ve karmaşıklık matrisi görselleştirmeleriyle karşılaştırır.
 
 ### 🛠 Teknoloji Yığını ve Kütüphaneler
 - **Dil:** Python
 - **Veri Manipülasyonu ve Analizi:** Pandas, NumPy
 - **Makine Öğrenmesi:** Scikit-Learn 
+- **Doğal Dil İşleme (NLP):** Scikit-Learn (`TfidfVectorizer`), Metin Sınıflandırma
 - **Pekiştirmeli Öğrenme:** Gymnasium
 - **Veri Görselleştirme:** Matplotlib
 - **Versiyon Kontrolü:** Git, GitHub, GitHub Desktop
