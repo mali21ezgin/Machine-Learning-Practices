@@ -1,4 +1,4 @@
-# Customer Segmentation & Unsupervised Learning Pipeline
+# 🚀 Customer Segmentation & Unsupervised Learning Pipeline
 
 <p align="center">
   <a href="#english">English</a> | <a href="#türkçe">Türkçe</a>
@@ -13,6 +13,32 @@ This project implements an end-to-end **Unsupervised Machine Learning** pipeline
 
 - **Dataset:** Dynamically fetched via `kagglehub` (`vjchoudhary7/customer-segmentation-tutorial-in-python`).
 - **Features Used:** Annual Income (k$) and Spending Score (1-100).
+
+---
+
+### 📊 Exploratory Data Analysis & Visual Results
+
+#### 1. Initial Data Distribution (Annual Income vs. Spending Score)
+<p align="center">
+  <img src="images/1.png" alt="Initial Distribution" width="600"/>
+</p>
+
+#### 2. K-Means Clustering Results
+<p align="center">
+  <img src="images/k-means.png" alt="K-Means Clustering" width="600"/>
+</p>
+
+#### 3. Hierarchical (Agglomerative) Clustering Results
+<p align="center">
+  <img src="images/hiyerarşik.png" alt="Hierarchical Clustering" width="600"/>
+</p>
+
+#### 4. DBSCAN Density-Based Clustering Results
+<p align="center">
+  <img src="images/DBSCAN.png" alt="DBSCAN Clustering" width="600"/>
+</p>
+
+---
 
 ### Key Engineering Decisions & Approach
 
@@ -48,6 +74,32 @@ Bu proje, Kaggle üzerindeki popüler [Mall Customers Veri Seti](https://www.kag
 
 - **Veri Seti:** `kagglehub` (`vjchoudhary7/customer-segmentation-tutorial-in-python`) kullanılarak dinamik olarak indirilmiştir.
 - **Kullanılan Özellikler:** Yıllık Gelir (Annual Income) ve Harcama Skoru (Spending Score).
+
+---
+
+### 📊 Keşifsel Veri Analizi ve Görsel Sonuçlar
+
+#### 1. Başlangıç Veri Dağılımı (Gelir vs. Harcama Skoru)
+<p align="center">
+  <img src="images/1.png" alt="İlk Dağılım" width="600"/>
+</p>
+
+#### 2. K-Means Kümeleme Sonuçları
+<p align="center">
+  <img src="images/k-means.png" alt="K-Means Kümeleme" width="600"/>
+</p>
+
+#### 3. Hiyerarşik (Agglomerative) Kümeleme Sonuçları
+<p align="center">
+  <img src="images/hiyerarşik.png" alt="Hiyerarşik Kümeleme" width="600"/>
+</p>
+
+#### 4. DBSCAN Yoğunluk Tabanlı Kümeleme Sonuçları
+<p align="center">
+  <img src="images/DBSCAN.png" alt="DBSCAN Kümeleme" width="600"/>
+</p>
+
+---
 
 ### Mühendislik Kararları ve Yaklaşım
 
